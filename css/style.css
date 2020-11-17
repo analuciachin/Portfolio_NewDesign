@@ -1,0 +1,243 @@
+/*
+nav background color: #808080
+redish color: #e74c3c
+lighter shade: #f09188
+darker shade: #c72918
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+
+body {
+  background-color: #fff;
+  color: #555;
+  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+.main-navbar {
+  background-color: #595959;
+}
+
+.logo {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: auto;
+	float: left;
+}
+
+.main-nav li{
+  margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+  padding: 8px 0;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 90%;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+  border-bottom: 2px solid #e74c3c;
+}
+
+
+/* ------------------------------------------------------ */
+/* REUSABLE COMPONENTS */
+/* ------------------------------------------------------ */
+
+
+/* --------- HEADINGS --------*/
+h1, h2 {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 300%;
+  word-spacing: 4px;
+  letter-spacing: 1px;
+}
+
+h2 {
+  font-size: 200%;
+  word-spacing: 2px;
+  letter-spacing: 1px;
+}
+
+h3 {
+  font-size: 100%;
+}
+
+/* ------------------------------------------------------ */
+/* HOME SECTION */
+/* ------------------------------------------------------ */
+
+
+.home-section h1:first-of-type {
+  margin-top: 150px;
+}
+
+.home-section h1:last-of-type {
+  margin-bottom: 80px;
+}
+
+.home-section .social-icons {
+  margin-top: 50px;
+}
+
+.home-section .social-icons a:link,
+.home-section .social-icons a:visited {
+  font-size: 150%;
+  text-decoration: none;
+  margin: 0 15px;
+  color: #555;
+  position: relative;
+  top: 0;
+  transition: top ease 0.5s, color 0.5s;
+}
+
+
+.home-section .social-icons a:hover,
+.home-section .social-icons a:active {
+  top: -10px;
+	color: #e74c3c;
+}
+
+
+/* ------------------------------------------------------ */
+/* ABOUT SECTION */
+/* ------------------------------------------------------ */
+
+.about-section {
+  margin: 50px 0;
+  background-color: #f7f7f7;
+}
+
+.about-section h2 {
+  margin: 50px 0;
+}
+
+.about-section h2:after {
+  content: ' ';
+  height: 2px;
+  display: block;
+  background-color: #e74c3c;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.about-section p {
+  font-size: 100%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+.about-section p:last-of-type {
+  margin-bottom: 60px;
+}
+
+/* ------------------------------------------------------ */
+/* PROJECT SECTION */
+/* ------------------------------------------------------ */
+
+
+.project-section {
+  margin: 50px 0;
+  background-color: #fff;;
+}
+
+.project-section h2 {
+  margin: 30px 0;
+}
+
+.project-section h2:after {
+  content: ' ';
+  height: 2px;
+  display: block;
+  background-color: #e74c3c;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.project-cards {
+  margin-top: 30px;
+}
+
+.card {
+  width: 24rem;
+  margin: 0 auto;
+}
+
+.card img {
+  height: 50%;
+}
+
+.card p {
+  font-size: 85%;
+  margin: 30px 0;
+}
+
+.card .btn-full,
+.card .btn-ghost {
+  font-size: 80%;
+  text-decoration: none;
+  padding: 3px 10px;
+  border-top-right-radius:10px;
+	border-bottom-left-radius:10px; 
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.card .btn-full:link,
+.card .btn-full:visited {
+  color: #3c3c3c;
+  background-color: #f09188;
+  border: 1px solid #c72918;
+  transition: background-color ease 0.5s, color 0.5s;
+}
+
+.card .btn-full:hover,
+.card .btn-full:active {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+
+.card .btn-ghost:link,
+.card .btn-ghost:visited {
+  color: #c72918;
+  background-color: #fff;
+  border: 1px solid #c72918;
+  transition: background-color ease 0.5s, color 0.5s;
+}
+
+
+.card .btn-ghost:hover,
+.card .btn-ghost:active {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+.project-img {
+  overflow: hidden;
+}
+
+.project-img img {
+  transition: all 1.3s ease;
+}
+
+.project-img:hover img {
+  transform: scale(1.3);
+}

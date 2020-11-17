@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:400');
+
+html,body {
+	height: 100%;
+	width: 100%;
+	/*font-family: 'Poppins', sans-serif;*/
+	font-family: 'PT Serif', serif;
+}
+
+.navbar-bg-color {
+	background: #b23850;
+}
+
+.page-bg-color {
+	background: #c4dbf6;
+}
+
+.navbar {
+	padding: 0.8rem;
+}
+
+.navbar-nav li {
+	padding-right: 50px;
+}
+
+.padding {
+	padding-top: 9rem;
+	padding-bottom: 2rem;
+}
+
+.picture-circle {
+	background-color: #fff;
+	border-radius: 50%;
+	width: 50px;
+	height: auto;
+	float: left;
+}
+
+.nav-li {
+	text-decoration: none !important;
+	font-size: 1.3em !important;
+	color: #e7e3d4;
+}
+
+.index-h1 {
+	color: #3b8beb;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
+}
+
+.index-h3 {
+	color: #5e6a87;
+}
+
+.index-h4 {
+	color: #5e6a87;
+}
+
+/* hand wave animation from https://jarv.is/notes/css-waving-hand-emoji/*/
+.wave {
+	animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+	animation-duration: 2.5s;        /* Change to speed up or slow down */
+	animation-iteration-count: infinite;  /* Never stop waving :) */
+	transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+	display: inline-block;
+  }
+  
+@keyframes wave-animation {
+	0% { transform: rotate( 0.0deg) }
+	10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+	20% { transform: rotate(-8.0deg) }
+	30% { transform: rotate(14.0deg) }
+	40% { transform: rotate(-4.0deg) }
+	50% { transform: rotate(10.0deg) }
+	60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+100% { transform: rotate( 0.0deg) }
+}
+
+/* About Me */
+
+h1 {
+	color: #3b8beb;
+	font-size: 3.5em;
+	font-weight: bold;
+	padding-bottom: 3rem;
+}
+
+h3 {
+	color: #3b8beb;
+	font-size: 2.5em;
+	font-weight: bold;
+	padding-bottom: 1.5rem;
+}
+
+.p-desc  {
+	color: #5e6a87;
+	font-size: 1.5em;
+	line-height: 1.8em;
+	margin-top: 0.2em;
+}
+
+/* Portfolio */
+
+.portfolio-padding {
+	padding-bottom: 3rem;
+}
+
+.project-img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5rem;
+}
+
+.project-img:hover {
+	transition: transform .5s ease;
+	transform: scale(1.05);
+}
+
+.project-desc-h2 {
+	color: #495369;
+	font-size: 2em;
+	line-height: 2.1em;
+	margin-bottom: 1.5rem;
+}
+
+.project-p {
+	color: #5e6a87;
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+.project-li {
+	color: #495369;
+	font-size: 1.2em;
+}
+
+.button {
+	cursor: pointer;
+	position: relative;
+	text-decoration: none;
+	background-color: #e7b1bc;
+	color: #343b4b;
+	padding: 6px 12px;
+	border: 1px solid #ce6479;
+	letter-spacing: 2px;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px; 
+	position: relative;
+  	transition: all .35s;
+}
+
+.button span {
+	position: relative;
+	z-index: 2;
+}
+
+.button:after{
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	border-top-right-radius:10px;
+	border-bottom-left-radius:10px;
+	background-color: #9b3146;
+	transition: all .35s;
+}
+  
+.button:hover {
+	text-decoration: none;
+	color: #e1e4ea;
+}
+  
+.button:hover:after{
+	width: 100%;
+}
+
+/* Blog */
+
+
+
+/* Contact */
+
+.contact-img {
+	width: 30%;
+	height: auto;
+}
+
+.contact-text {
+	font-size: 1.5em;
+	line-height: 2em;
+	color: #595959;
+}
+
+.contact-name {
+	margin-top: 1rem;
+	font-size: 2.3em;
+	color: #595959;
+}
+
+.contact-desc {
+	font-size: 1.2em;
+	line-height: 1.6em;
+	color: #595959;
+}
+
+.info-margin {
+	margin-top: 3rem;
+}
+
+
+.icon-style {
+	font-size: 2em;
+	text-decoration: none;
+	margin: 1.5rem;
+	color: #595959;
+	position: relative;
+	top: 0;
+	transition: top ease 0.5s;
+}
+
+.icon-style:hover {
+	top: -10px;
+	color: #b23850;
+}
+
+
+/* Project Details */
+
+.img-w100 {
+	width: 100%;
+	height: auto;
+	margin-bottom: 1.5rem;
+	filter: drop-shadow(0 0 5px #666);
+}
+
+
+
+/*--- Media Queries ---*/
+
+@media (min-width: 1200px) {
+	.index-h1 {
+		font-size: 4.5em;
+	}
+
+	.index-h3 {
+		font-size: 2.8em;
+	}
+
+	.index-h4 {
+		font-size: 1.4em;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 4em;
+		color: #3b8beb;
+	}
+
+	.p-desc  {
+		font-size: 1.8em;
+		line-height: 1.8em;
+		margin-top: 0.2em;
+	}
+  
+}
+
+@media (min-width: 1025px) and (max-width: 1199px) {
+	.index-h1 {
+		font-size: 3.8em;
+		margin-bottom: 1.5rem;
+	}
+
+	.index-h3 {
+		font-size: 2.5em;
+		margin-bottom: .8rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 4rem;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 4em;
+		color: #3b8beb;
+	}
+
+	.p-desc  {
+		font-size: 1.8em;
+		line-height: 1.8em;
+		margin-top: 0.2em;
+	}
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+	.padding {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
+	}
+
+	.index-h1 {
+		font-size: 3.2em;
+		margin-bottom: 1rem;
+	}
+
+	.index-h3 {
+		font-size: 2.5em;
+		margin-bottom: .8rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 4rem;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 3.8em;
+		color: #3b8beb;
+	}
+
+	/* Contact */
+	.contact-img {
+		width: 50%;
+		height: auto;
+	}
+  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.padding {
+		padding-top: 6rem;
+		padding-bottom: 2rem;
+	}
+
+	.index-h1 {
+		font-size: 3.2em;
+		margin-bottom: 1rem;
+	}
+
+	.index-h3 {
+		font-size: 2.5em;
+		margin-bottom: .8rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 4rem;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 3.8em;
+		color: #3b8beb;
+	}
+
+	/* Contact */
+	.contact-img {
+		width: 50%;
+		height: auto;
+	}
+}
+
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.navbar-nav {
+		padding-top: 1rem;
+	}
+
+	.nav-li {
+		font-size: 1em !important;
+		color: #e7e3d4;
+	}
+
+	.index-h1 {
+		font-size: 2.9em;
+		margin-bottom: 1rem;
+	}
+
+	.index-h3 {
+		font-size: 1.8em;
+		margin-bottom: .2rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 5rem;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 3.8em;
+		color: #3b8beb;
+	}
+
+	/* Contact */
+	.contact-img {
+		width: 70%;
+		height: auto;
+	}
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+	.navbar-nav {
+		padding-top: 1rem;
+	}
+
+	.nav-li {
+		font-size: 1em !important;
+		color: #e7e3d4;
+	}
+
+	.index-h1 {
+		font-size: 2em;
+		margin-bottom: 1rem;
+	}
+
+	.index-h3 {
+		font-size: 1.5em;
+		margin-bottom: .2rem;
+	}
+
+	.index-h1-padding {
+		padding-top: 5rem;
+	}
+
+	/* About Me */
+	h1 {
+		font-size: 3.2em;
+		color: #3b8beb;
+	}
+
+	/* Contact */
+	.contact-img {
+		width: 100%;
+		height: auto;
+	}
+}
