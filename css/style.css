@@ -61,6 +61,8 @@ body {
 /* ------------------------------------------------------ */
 
 
+
+
 /* --------- HEADINGS --------*/
 h1, h2 {
   font-weight: 300;
@@ -404,4 +406,131 @@ footer .social-icons li a:visited {
 footer .social-icons li a:hover,
 footer .social-icons li a:active {
   color: #fff;
+}
+
+
+/* ------------------------------------------------------ */
+/*                                                        */
+/* MY MOVIES */
+/*                                                        */
+/* ------------------------------------------------------ */
+
+
+/* ------------------------------------------------------ */
+/* INTRO SECTION / PROJECT PURPOSE AND GOAL */
+/* ------------------------------------------------------ */
+
+.movies-intro-section {
+  margin: 50px 0;
+    /*background-color: #f7f7f7;*/
+}
+
+.movies-intro-section h1 {
+  margin: 50px 0;
+}
+
+.movies-intro-section h1:after {
+  content: ' ';
+  height: 2px;
+  display: block;
+  background-color: #e74c3c;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.movies-intro-section p {
+  font-size: 100%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+.movies-goal-section h2 {
+  margin: 30px 0;
+}
+
+.movies-goal-section h2:after {
+  content: ' ';
+  height: 2px;
+  display: block;
+  background-color: #e74c3c;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.movies-goal-section p {
+  font-size: 100%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+/* ------------------------------------------------------ */
+/* MY MOVIES - LOGIN PAGE / SEARCH PAGE */
+/* ------------------------------------------------------ */
+
+.movies-login-section,
+.movies-search-section {
+  background-color: #f7f7f7;
+}
+
+.movies-login-section {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.movies-search-section {
+  padding: 30px 0;
+}
+
+.movies-login-section .login,
+.movies-search-section .search {
+  padding: 50px 0;
+}
+
+.movies-login-section p {
+  font-size: 100%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
+.img-w80 {
+  width: 80%;
+  filter: drop-shadow(0 0 3px #666);
+}
+
+/* ------------------------------------------------------ */
+/* MY MOVIES - SEARCH TEXT / ALL PAGE IMAGES */
+/* ------------------------------------------------------ */
+
+.movies-search-text-section {
+  margin: 50px 0;
+}
+
+.movies-search-text-section p:first-of-type {
+  margin: 30px 0;
+}
+
+.movies-search-img-section {
+  margin: 50px 0;
+}
+
+/* ------------------------------------------------------ */
+/* MY MOVIES - STATUS TEXT / STATUS IMAGES */
+/* ------------------------------------------------------ */
+
+.movies-status-section,
+.movies-status-img-section {
+  background-color: #f7f7f7;
+}
+
+.movies-status-section {
+  padding-top: 80px;
+}
+
+.movies-status-img-section {
+  padding-bottom: 50px;
 }

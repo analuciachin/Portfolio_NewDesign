@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+		<link href="css/style.css" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>		
+		<title>💻 Ana Lucia Chin</title>
+	</head>
+
+    
+  <!-- Navbar -->
+  <nav class='navbar navbar-expand-md navbar-light sticky-top navbar-bg-color'>
+      <div class='container-fluid'>
+          <img src='images/photo_ana_v1.png' alt="Ana's picture" class='picture-circle' />
+          <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
+              <span class='navbar-toggler-icon'></span>
+          </button>
+          <div class='collapse navbar-collapse' id='navbarResponsive'>
+              <ul class='navbar-nav ml-auto'>
+                  <li class='nav-item active'><a href='index.html' class='nav-li'>Home</a></li>
+                  <li class='nav-item'><a href='about.html' class='nav-li'>About</a></li>
+                  <li class='nav-item'><a href='portfolio.html' class='nav-li'>Portfolio</a></li>
+                  <li class='nav-item'><a href='blog.html' class='nav-li'>Blog</a></li>
+                  <li class='nav-item'><a href='contact.html' class='nav-li'>Contact</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+  <body class='page-bg-color'>
+      <div class='container-fluid padding'>
+          <div class='row text-center main-padding'>
+            <div class='col-md-10 offset-md-1'>
+              <h1 class='font-italic text-justify'>My Movies</h1>
+              <p class='p-desc text-justify'>My Movies is a project that I created to improve my understanding of the foundation and core concepts of React. In this project, I used the New York Times API to gather information about the movies' review data and injected this data based on the user's input of date range.</p>        
+            </div>
+          </div>
+
+          <div class='row text-center main-padding mt-5'>
+            <div class='col-md-10 offset-md-1'>
+              <h3 class='font-italic text-justify'>Project Purpose and Goal</h3>
+              <p class='p-desc text-justify'>After completing the Front-end development nanodegree from Udacity and the React course from TylerMcginnis.com. I have decided to create a React project on my own that was unique and where I could practice the React knowledge I have gained in those courses.</p>
+              <p class='p-desc text-justify'>The goal of this project was to create an application where the user can track the movies he/she watches. The list of movies is based on the critics' recommendation of the New York Times.</p>
+            </div>
+          </div>
+
+          <div class='row mt-5'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <img src='images/mymovies/mymovies_login.png' alt='My Movies Login Page' 
+                class='d-block mx-auto img-w100' />
+            </div>
+            <div class='col-md-5 mt-4'>
+              <p class='p-desc text-justify'>Despite being the first page of the application, the Login component was one of the last features I have added to the project. I have created the login page to better understand Javascript promises and learn how to simulate an API call using promises.</p>
+              <p class='p-desc text-justify font-italic'>username: abc / password: 123</p>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <p class='p-desc text-justify'>After entering the login credentials and clicking on the submit button, a spinner is shown while trying to login. If the login fails a message will be displayed to the user.</p>
+              <p class='p-desc text-justify'>For the spinner, I have used the react-spinner-material library.</p>
+            </div>
+            <div class='col-md-5 mt-4'>
+              <img src='images/mymovies/mymovies_spinner_invalid.png' alt='My Movies Search Page' 
+              class='d-block mx-auto img-w100' />
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <img src='images/mymovies/mymovies_search.png' alt='My Movies Search Page' 
+              class='d-block mx-auto img-w100' />
+            </div>
+            <div class='col-md-5 mt-4'>
+              <p class='p-desc text-justify'>After a successful login, the user is taken to the search page. In this page, the user can enter the period of the movie review.</p>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <p class='p-desc text-justify'>If there is no reviews in period, a message will be displayed to inform the user.</p>
+            </div>
+            <div class='col-md-5 mt-4'>
+              <img src='images/mymovies/mymovies_noreviews.png' alt='My Movies No Reviews Page' 
+                class='d-block mx-auto img-w100' />
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <img src='images/mymovies/mymovies_all.png' alt='My Movies All Tab' 
+                class='d-block mx-auto img-w100' />
+            </div>
+            <div class='col-md-5 mt-4'>
+              <p class='p-desc text-justify'>After the search is completed, up to 20 movies picked by the critics (according to the New York Times API) will be loaded to the 'All' tab. Working with the NYT API gave me more experience on reading API documentations and practice making calls through POSTMAN.</p>  
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <p class='p-desc text-justify'>Once all movies are loaded, the user can change its status by clicking the blue down arrow located on the top left of each movie card and choosing either 'Wish List' or 'Watched'.</p>
+              <p class='p-desc text-justify'>In this part of the project, I practiced object manipulation by changing the movie status (status is a property of the movie object) and some ES6 syntax like the spread operator.</p>
+            </div>
+            <div class='col-md-5 mt-4'>
+              <img src='images/mymovies/mymovies_status.png' alt='My Movies Status' 
+                class='d-block mx-auto img-w100' />
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <img src='images/mymovies/mymovies_wishlist.png' alt='My Movies Wish List Tab' 
+                class='d-block mx-auto img-w100' />
+            </div>
+            <div class='col-md-5 mt-4'>
+              <p class='p-desc text-justify'>The movies changed to wish list will show up in the 'Wish List' tab with a heart icon on the top right of the card.</p>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <p class='p-desc text-justify'>Once the movie status is changed to watched, the user is given the option to give his/her own rate to the movie. In the 'Watched' tab, all movies will have a green checked icon on the top right of the card.</p>
+            </div>
+            <div class='col-md-5 mt-4'>
+              <img src='images/mymovies/mymovies_watched.png' alt='My Movies Watched Tab' 
+                class='d-block mx-auto img-w100' />
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <img src='images/mymovies/mymovies_watchedrate.png' alt='My Movies Watched Rate' 
+                class='d-block mx-auto img-w100' />
+            </div>
+            <div class='col-md-5 mt-4'>
+              <p class='p-desc text-justify'>The user can give a rate from 1 to 5 and it will be converted in stars. If the user tries to give a rate above 5, an alert message will be shown. For the stars and all other icons, I have used the react-icons library.</p>
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-5 offset-md-1 mt-4 mb-3'>
+              <p class='p-desc text-justify'>In the 'All' tab, the user can see a summary of his/her activity.</p>
+              <p class='p-desc text-justify'>The logout button redirects the user to the login page.</p>
+            </div>
+            <div class='col-md-5 mt-4 mb-3'>
+              <img src='images/mymovies/mymovies_allsummary.png' alt='My Movies All Summary' 
+                class='d-block mx-auto img-w100' />
+            </div>
+          </div>
+
+          <div class='row text-center main-padding mt-5'>
+            <div class='col-md-10 offset-md-1'>
+              <h3 class='font-italic text-justify'>Problems and Thought Process</h3>
+              <p class='p-desc text-justify'>Like most projects, I ran into a few bumps along the way, one of them was due to the fact that I did not have a backend, so I had to think what was the best way to store the data from the API and where I would  create the extra variables that I needed like movie status, selected movie, etc. I chose to create them as new properties of an object instead of variables for organization and simplicity. For example, to change the status of a movie, I could simply change its property instead of managing different arrays.</p>
+            </div>
+          </div>
+
+          <div class='row text-center main-padding mt-5'>
+            <div class='col-md-10 offset-md-1'>
+              <h3 class='font-italic text-justify'>Responsive Design</h3>
+              <p class='p-desc text-justify'>I have used Bootstrap to make the application responsive across all devices. Below is the view of the Login, Search and All pages to get an idea of how it would look like in a mobile, tablet and notebook.</p>
+            </div>
+          </div>
+
+          <div class='row mt-5'>
+            <div class='col-md-5 offset-md-1 mt-4'>
+              <img src='images/mymovies/mymovies_laptop.png' alt='My Movies Laptop Device' 
+              class='d-block mx-auto img-w100' />  
+            </div>
+            <div class='col-md-5 mt-4'>
+              <img src='images/mymovies/mymovies_tablet.png' alt='My Movies Tablet Device' 
+              class='d-block mx-auto img-w100' /> 
+            </div>
+          </div>
+
+          <div class='row'>
+            <div class='col-md-6 offset-md-3 mt-4 mb-3'> 
+              <img src='images/mymovies/mymovies_mobile.png' alt='My Movies Mobile Device' 
+                class='d-block mx-auto img-w100' />
+            </div>
+          </div>
+
+          <div class='row text-center main-padding mt-5'>
+            <div class='col-md-10 offset-md-1'>
+              <h3 class='font-italic text-justify'>Lessons Learned</h3>
+              <p class='p-desc text-justify'>Working on My Movies project gave me the chance to learn, review and practice some Javascript concepts that I was not very confortable with such as promises, ES6 syntax and object manipulation. It also gave me the opportunity to get more familiar with API documentations, using POSTMAN to test and make calls to the API, practicing React's setState callbacks and working with Bootstrap for responsive design.</p>
+            </div>
+          </div>
+
+          <div class='row text-center main-padding mt-5'>
+            <div class='col-md-10 offset-md-1'>
+              <h3 class='font-italic text-justify'>Future Improvements</h3>
+              <p class='p-desc text-justify'>The next steps for this project would be having a backend where I can store all the data, so the user does not lose track of all his activities after the browser refreshes. Also, I would like refactor the code to make the components as reusable as possible and add React Hooks to it.</p>
+            </div>
+          </div>
+
+      </div>
+  </body>
+
+</html>
