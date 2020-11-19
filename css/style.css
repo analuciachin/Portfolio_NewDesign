@@ -84,6 +84,16 @@ h3 {
   font-size: 100%;
 }
 
+
+/* --------- PARAGRAPH --------*/
+
+p {
+  font-size: 100%;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+  line-height: 150%;
+}
+
 /* ------------------------------------------------------ */
 /* HOME SECTION */
 /* ------------------------------------------------------ */
@@ -143,12 +153,14 @@ h3 {
   margin-top: 30px;
 }
 
+/*
 .about-section p {
   font-size: 100%;
   word-spacing: 5px;
   letter-spacing: 2px;
   line-height: 150%;
 }
+*/
 
 .about-section span {
   font-size: 130%;
@@ -216,9 +228,14 @@ h3 {
   height: 50%;
 }
 
+.card h3 {
+  margin-top: 10px;
+}
+
 .card p {
   font-size: 85%;
   margin: 30px 0;
+  text-align: center;
 }
 
 /* --------- LINK BUTTONS --------*/
@@ -378,9 +395,13 @@ footer .social-icons {
   margin-left: 40px;
 }
 
+.footer-nav li
+footer .social-icons li {
+  padding: 8px 0;
+}
+
 .footer-nav li a:link,
 .footer-nav li a:visited {
-  padding: 8px 0;
   color: #9d9d9d;
   text-decoration: none;
   text-transform: uppercase;
@@ -394,7 +415,6 @@ footer .social-icons li {
 
 footer .social-icons li a:link,
 footer .social-icons li a:visited {
-  padding: 8px 0;
   color: #9d9d9d;
   text-decoration: none;
   font-size: 90%;
@@ -408,6 +428,27 @@ footer .social-icons li a:active {
   color: #fff;
 }
 
+footer p {
+  font-size: 70%;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 120%;
+  color: #9d9d9d;
+}
+
+footer p:first-of-type {
+  float: left;
+  margin-left: 40px;
+}
+
+footer p:last-of-type {
+  float: right;
+  margin-left: 40px;
+}
+
+footer p:last-of-type:hover {
+  color: #fff;
+}
 
 /* ------------------------------------------------------ */
 /*                                                        */
@@ -416,13 +457,30 @@ footer .social-icons li a:active {
 /* ------------------------------------------------------ */
 
 
+
+/* --------- LINE UNDER H2 --------*/
+
+.movies-goal-section h2:after,
+.movies-thought-section h2:after,
+.movies-responsive-text-section h2:after,
+.movies-lessons-section h2:after,
+.movies-improvements-section h2:after {
+  content: ' ';
+  height: 2px;
+  display: block;
+  background-color: #e74c3c;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
 /* ------------------------------------------------------ */
 /* INTRO SECTION / PROJECT PURPOSE AND GOAL */
 /* ------------------------------------------------------ */
 
 .movies-intro-section {
   margin: 50px 0;
-    /*background-color: #f7f7f7;*/
+  /*background-color: #f7f7f7;*/
 }
 
 .movies-intro-section h1 {
@@ -439,33 +497,11 @@ footer .social-icons li a:active {
   margin-top: 30px;
 }
 
-.movies-intro-section p {
-  font-size: 100%;
-  word-spacing: 5px;
-  letter-spacing: 2px;
-  line-height: 150%;
-}
-
 .movies-goal-section h2 {
-  margin: 30px 0;
+  margin: 40px 0;
 }
 
-.movies-goal-section h2:after {
-  content: ' ';
-  height: 2px;
-  display: block;
-  background-color: #e74c3c;
-  width: 80px;
-  margin: 0 auto;
-  margin-top: 30px;
-}
 
-.movies-goal-section p {
-  font-size: 100%;
-  word-spacing: 5px;
-  letter-spacing: 2px;
-  line-height: 150%;
-}
 
 /* ------------------------------------------------------ */
 /* MY MOVIES - LOGIN PAGE / SEARCH PAGE */
@@ -490,16 +526,23 @@ footer .social-icons li a:active {
   padding: 50px 0;
 }
 
-.movies-login-section p {
-  font-size: 100%;
-  word-spacing: 5px;
-  letter-spacing: 2px;
-  line-height: 150%;
+/* --------- PROJECT IMAGES --------*/
+
+.img-w80, .img-w90 {
+  filter: drop-shadow(0 0 3px #666);
+  transition: filter 0.4s;
 }
 
 .img-w80 {
   width: 80%;
-  filter: drop-shadow(0 0 3px #666);
+}
+
+.img-w90 {
+  width: 90%;
+}
+
+.img-w80:hover, .img-w90:hover {
+  filter: drop-shadow(0 0 5px #333);
 }
 
 /* ------------------------------------------------------ */
@@ -528,9 +571,71 @@ footer .social-icons li a:active {
 }
 
 .movies-status-section {
-  padding-top: 80px;
+  padding: 80px 0;
 }
 
 .movies-status-img-section {
   padding-bottom: 50px;
 }
+
+.movies-summary-section {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.movies-summary-section p {
+  margin: 20px 0 60px 0;
+}
+
+.movies-summary-section img {
+  margin-bottom: 50px;
+}
+
+
+/* ------------------------------------------------------ */
+/* MY MOVIES - PROBLEMS AND THOUGHT PROCESS / RESP DESIGN */
+/* ------------------------------------------------------ */
+
+
+.movies-thought-section,
+.movies-responsive-text-section {
+  background-color: #fff;
+  margin: 70px 0;
+}
+
+.movies-thought-section p,
+.movies-responsive-text-section p {
+  margin: 40px 0;
+}
+
+.movies-responsive-img-section .row:last-of-type {
+  margin: 50px 0;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* MY MOVIES - LESSONS LEARNED / FUTURE IMPROVEMENTS */
+/* ------------------------------------------------------ */
+
+
+.movies-lessons-section,
+.movies-improvements-section {
+  background-color: #f7f7f7;
+}
+
+.movies-lessons-section {
+  padding: 60px 0;
+}
+
+.movies-improvements-section {
+  padding: 10px 0 50px 0;
+}
+
+.movies-lessons-section p {
+  padding: 30px 0;
+}
+.movies-improvements-section p {
+  padding: 30px 0 60px 0;
+}
+
