@@ -458,8 +458,9 @@ footer p:last-of-type:hover {
 
 
 
-/* --------- LINE UNDER H2 --------*/
+/* --------- LINE UNDER HEADER --------*/
 
+.movies-intro-section h1:after,
 .movies-goal-section h2:after,
 .movies-thought-section h2:after,
 .movies-responsive-text-section h2:after,
@@ -485,16 +486,6 @@ footer p:last-of-type:hover {
 
 .movies-intro-section h1 {
   margin: 50px 0;
-}
-
-.movies-intro-section h1:after {
-  content: ' ';
-  height: 2px;
-  display: block;
-  background-color: #e74c3c;
-  width: 80px;
-  margin: 0 auto;
-  margin-top: 30px;
 }
 
 .movies-goal-section h2 {
@@ -639,3 +630,110 @@ footer p:last-of-type:hover {
   padding: 30px 0 60px 0;
 }
 
+
+/* ------------------------------------------------------ */
+/*                                                        */
+/* NEIGHBORHOOD MAP */
+/*                                                        */
+/* ------------------------------------------------------ */
+
+
+
+/* --------- LINE UNDER H2 --------*/
+
+.map-intro-section h1:after,
+.map-goal-section h2:after,
+.map-thought-section h2:after,
+.map-lessons-section h2:after {
+  content: ' ';
+  height: 2px;
+  display: block;
+  background-color: #e74c3c;
+  width: 80px;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+
+
+/* ------------------------------------------------------ */
+/* MAP - INTRO / PROJECT PURPOSE AND GOAL SECTION */
+/* ------------------------------------------------------ */
+
+.map-intro-section {
+  background-color: #fff;
+  margin: 50px 0;
+}
+
+.map-intro-section h1 {
+  margin: 50px 0;
+}
+
+.map-goal-section h2 {
+  margin: 40px 0;
+}
+
+/* ------------------------------------------------------ */
+/* MAP - MAP LOADED / MAP PIN CLICKED SECTION */
+/* ------------------------------------------------------ */
+
+
+.map-loaded-section,
+.map-pinclicked-section {
+  background-color: #f7f7f7;
+}
+
+.map-loaded-section {
+  margin-top: 50px;
+  padding-top: 50px;
+}
+
+.map-pinclicked-section {
+  padding: 30px 0;
+}
+
+.map-loaded-section .loaded,
+.map-pinclicked-section .pinclicked {
+  padding: 50px 0;
+}
+
+
+/* ------------------------------------------------------ */
+/* MAP - SEARCH / LIST CLICK SECTION */
+/* ------------------------------------------------------ */
+
+
+.map-search-section,
+.map-listclick-section {
+  background-color: #fff;
+}
+
+.map-search-section {
+  margin: 50px 0;
+}
+
+.map-search-section,
+.map-listclick-section {
+  padding: 30px 0;
+}
+
+.map-listclick-section .listclick {
+  padding-bottom: 30px;
+}
+
+
+/* ------------------------------------------------------ */
+/* MAP - PROBLEMS AND THOUGHT PROCESS / LESSONS LEARNED */
+/* ------------------------------------------------------ */
+
+
+.map-thought-section,
+.map-lessons-section {
+  background-color: #f7f7f7;
+  padding: 50px 0;
+}
+
+.map-thought-section p,
+.map-lessons-section p {
+  margin: 30px 0;
+}
