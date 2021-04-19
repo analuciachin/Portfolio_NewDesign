@@ -1,267 +1,422 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		
-		<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>	
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
     <!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-		<link href="css/style.css" rel="stylesheet">
-		
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
+      crossorigin="anonymous"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+
     <title>💻 Ana Lucia Chin</title>
-		<!-- control + command + space -> to open emojis -->
+    <!-- control + command + space -> to open emojis -->
   </head>
   <body>
-		<nav class='navbar navbar-expand-md navbar-light sticky-top main-navbar'>
-			<div class='container-fluid'>
-				<img src='images/photo_ana_v1.png' alt="Ana's picture" class='logo' />
-				<button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#navbarResponsive'>
-					<span class='navbar-toggler-icon'></span>
-				</button>
-				<div class='collapse navbar-collapse' id='navbarResponsive'>
-					<ul class='navbar-nav ml-auto main-nav'>
-						<li><a href='#'>Home</a></li>
-						<li><a href='#'>About</a></li>
-						<li><a href='#'>Portfolio</a></li>
-						<li><a href='#'>Contact</a></li>
-					</ul>
-				</div>
-			</div>
+    <nav class="navbar navbar-expand-md navbar-light sticky-top main-navbar">
+      <div class="container-fluid">
+        <img src="images/photo_ana_v1.png" alt="Ana's picture" class="logo" />
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto main-nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
-  
-    <section class='movies-intro-section'>
-			<div class='row text-center'>
-				<div class='col-md-10 offset-md-1'>
-					<h1>My Movies</h1>
+
+    <section class="movies-intro-section">
+      <div class="row text-center">
+        <div class="col-md-10 offset-md-1">
+          <h1>My Movies</h1>
         </div>
       </div>
 
-      <div class='row text-justify'>
-				<div class='col-md-8 offset-md-2'>
-          <p>My Movies is a project that I created to improve my understanding of the foundation and core concepts of React. In this project, I used the New York Times API to gather information about the movies' review data and injected this data based on the user's input of date range.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class='movies-goal-section'>
-      <div class='row text-center'>
-				<div class='col-md-10 offset-md-1'>
-					<h2>Project Purpose and Goal</h2>
-        </div>
-      </div>
-
-      <div class='row text-justify'>
-				<div class='col-md-8 offset-md-2'>
-          <p>After completing the Front-end development nanodegree from Udacity and the React course from TylerMcginnis.com. I have decided to create a React project on my own that was unique and where I could practice the React knowledge I have gained in those courses.</p>
-          <p>The goal of this project was to create an application where the user can track the movies he/she watches. The list of movies is based on the critics' recommendation of the New York Times.</p>
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            My Movies is a web application that helps the user manage a list of
+            movies he wants to watch. The list of movies is based on the
+            critics' recommendation of the New York Times.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-login-section'>
-      <div class='row align-items-center h-100 text-center login'>
-        <div class='col-md-5 offset-md-1'>
-          <img src='images/mymovies/mymovies_login.png' alt='My Movies Login Page' 
-            class='d-block mx-auto img-w80' />
+    <section class="movies-goal-section">
+      <div class="row text-center">
+        <div class="col-md-10 offset-md-1">
+          <h2>Project Purpose and Goal</h2>
         </div>
-        <div class='col-md-5'>
-          <p>Despite being the first page of the application, the Login component was one of the last features I have added to the project. I have created the login page to better understand Javascript promises and learn how to simulate an API call using promises.</p>
-          <p class='font-italic'>username: abc / password: 123</p>
-          <p>After entering the login credentials and clicking on the submit button, a spinner is shown while trying to login. If the login fails a message will be displayed to the user.</p>
-          <p>For the spinner, I have used the react-spinner-material library.</p>
+      </div>
+
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            After completing the Front-end development nanodegree from Udacity
+            and the React course from TylerMcginnis.com. I have decided to
+            create a React project on my own that was unique and where I could
+            practice the React knowledge I have gained in those courses.
+          </p>
+          <p>
+            My Movies is a project that I created to improve my understanding of
+            the foundation and core concepts of React. In this project, I used
+            the New York Times API to gather information about the movies'
+            review data and injected this data based on the user's input of date
+            range.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-search-section'>
-      <div class='row align-items-center h-100 text-center search'>
-        <div class='col-md-5 offset-md-1'>
-          <p>After a successful login, the user is taken to the search page. In this page, the user can enter the period of the movie review.</p>
-          <p>If there is no reviews in period, a message will be displayed to inform the user.</p>
+    <section class="movies-login-section">
+      <div class="row align-items-center h-100 text-center login">
+        <div class="col-md-5 offset-md-1">
+          <img
+            src="images/mymovies/mymovies_login.png"
+            alt="My Movies Login Page"
+            class="d-block mx-auto img-w80"
+          />
         </div>
-        <div class='col-md-5'>
-          <img src='images/mymovies/mymovies_search.png' alt='My Movies Search Page' 
-          class='d-block mx-auto img-w80' />
-        </div>
-      </div>
-    </section>
-
-    <section class='movies-search-text-section'>
-      <div class='row text-justify'>
-        <div class='col-md-8 offset-md-2'>
-          <p>After the search is completed, up to 20 movies picked by the critics (according to the New York Times API) will be loaded to the 'All' tab. Working with the NYT API gave me more experience on reading API documentations and practice making calls through POSTMAN.</p>
-          <p>Once all movies are loaded, the user can change its status by clicking the blue down arrow located on the top left of each movie card and choosing either 'Wish List' or 'Watched'.</p>
-          <p>In this part of the project, I practiced object manipulation by changing the movie status (status is a property of the movie object) and some ES6 syntax like the spread operator.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class='movies-search-img-section'>
-      <div class='row'>
-        <div class='col-md-5 offset-md-1'>
-          <img src='images/mymovies/mymovies_all.png' alt='My Movies All Tab' class='d-block mx-auto img-w80' />
-        </div>
-        <div class='col-md-5'>
-          <img src='images/mymovies/mymovies_status.png' alt='My Movies Status' class='d-block mx-auto img-w80' />
+        <div class="col-md-5">
+          <p>
+            Despite being the first page of the application, the Login component
+            was one of the last features I have added to the project. I have
+            created the login page to better understand Javascript promises and
+            learn how to simulate an API call using promises.
+          </p>
+          <p class="font-italic">username: abc / password: 123</p>
+          <p>
+            After entering the login credentials and clicking on the submit
+            button, a spinner is shown while trying to login. If the login fails
+            a message will be displayed to the user.
+          </p>
+          <p>
+            For the spinner, I have used the react-spinner-material library.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-status-section'>
-      <div class='row text-justify'>
-        <div class='col-md-8 offset-md-2'>
-          <p>The movies changed to wish list will show up in the 'Wish List' tab with a heart icon on the top right of the card.</p>
-          <p>Once the movie status is changed to watched, the user is given the option to give his/her own rate to the movie. In the 'Watched' tab, all movies will have a green checked icon on the top right of the card.</p>
-          <p>The user can give a rate from 1 to 5 and it will be converted in stars. If the user tries to give a rate above 5, an alert message will be shown. For the stars and all other icons, I have used the react-icons library.</p>
+    <section class="movies-search-section">
+      <div class="row align-items-center h-100 text-center search">
+        <div class="col-md-5 offset-md-1">
+          <p>
+            After a successful login, the user is taken to the search page. In
+            this page, the user can enter the period of the movie review.
+          </p>
+          <p>
+            If there is no reviews in period, a message will be displayed to
+            inform the user.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img
+            src="images/mymovies/mymovies_search.png"
+            alt="My Movies Search Page"
+            class="d-block mx-auto img-w80"
+          />
         </div>
       </div>
     </section>
 
-    <section class='movies-status-img-section'>
-      <div class='row'>
-        <div class='col-md-4'>
-          <img src='images/mymovies/mymovies_wishlist.png' alt='My Movies Wish List Tab' class='d-block mx-auto img-w90' />     
-        </div>
-        <div class='col-md-4'>
-          <img src='images/mymovies/mymovies_watched.png' alt='My Movies Wish List Tab' class='d-block mx-auto img-w90' />     
-        </div>
-        <div class='col-md-4'>
-          <img src='images/mymovies/mymovies_watchedrate.png' alt='My Movies Wish List Tab' class='d-block mx-auto img-w90' />     
-        </div>
-      </div>
-    </section>
-
-    <section class='movies-summary-section'>
-      <div class='row text-center'>
-        <div class='col-md-8 offset-md-2'>
-          <p>In the 'All' tab, the user can see a summary of his/her activity.</p>
-        </div>
-      </div>
-
-      <div class='row'>
-        <div class='col-md-8 offset-md-2'>
-          <img src='images/mymovies/mymovies_allsummary.png' alt='My Movies All Summary' class='d-block mx-auto img-w80' />
+    <section class="movies-search-text-section">
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            After the search is completed, up to 20 movies picked by the critics
+            (according to the New York Times API) will be loaded to the 'All'
+            tab. Working with the NYT API gave me more experience on reading API
+            documentations and practice making calls through POSTMAN.
+          </p>
+          <p>
+            Once all movies are loaded, the user can change its status by
+            clicking the blue down arrow located on the top left of each movie
+            card and choosing either 'Wish List' or 'Watched'.
+          </p>
+          <p>
+            In this part of the project, I practiced object manipulation by
+            changing the movie status (status is a property of the movie object)
+            and some ES6 syntax like the spread operator.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-thought-section'>
-      <div class='row text-center'>
-        <div class='col-md-8 offset-md-2'>
+    <section class="movies-search-img-section">
+      <div class="row">
+        <div class="col-md-5 offset-md-1">
+          <img
+            src="images/mymovies/mymovies_all.png"
+            alt="My Movies All Tab"
+            class="d-block mx-auto img-w80"
+          />
+        </div>
+        <div class="col-md-5">
+          <img
+            src="images/mymovies/mymovies_status.png"
+            alt="My Movies Status"
+            class="d-block mx-auto img-w80"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="movies-status-section">
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            The movies changed to wish list will show up in the 'Wish List' tab
+            with a heart icon on the top right of the card.
+          </p>
+          <p>
+            Once the movie status is changed to watched, the user is given the
+            option to give his/her own rate to the movie. In the 'Watched' tab,
+            all movies will have a green checked icon on the top right of the
+            card.
+          </p>
+          <p>
+            The user can give a rate from 1 to 5 and it will be converted in
+            stars. If the user tries to give a rate above 5, an alert message
+            will be shown. For the stars and all other icons, I have used the
+            react-icons library.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="movies-status-img-section">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="images/mymovies/mymovies_wishlist.png"
+            alt="My Movies Wish List Tab"
+            class="d-block mx-auto img-w90"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/mymovies/mymovies_watched.png"
+            alt="My Movies Wish List Tab"
+            class="d-block mx-auto img-w90"
+          />
+        </div>
+        <div class="col-md-4">
+          <img
+            src="images/mymovies/mymovies_watchedrate.png"
+            alt="My Movies Wish List Tab"
+            class="d-block mx-auto img-w90"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="movies-summary-section">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            In the 'All' tab, the user can see a summary of his/her activity.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8 offset-md-2">
+          <img
+            src="images/mymovies/mymovies_allsummary.png"
+            alt="My Movies All Summary"
+            class="d-block mx-auto img-w80"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="movies-thought-section">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
           <h2>Problems and Thought Process</h2>
         </div>
       </div>
-      <div class='row text-justify'>
-        <div class='col-md-8 offset-md-2'>
-          <p>Like most projects, I ran into a few bumps along the way, one of them was due to the fact that I did not have a backend, so I had to think what was the best way to store the data from the API and where I would  create the extra variables that I needed like movie status, selected movie, etc. I chose to create them as new properties of an object instead of variables for organization and simplicity. For example, to change the status of a movie, I could simply change its property instead of managing different arrays.</p>
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            Like most projects, I ran into a few bumps along the way, one of
+            them was due to the fact that I did not have a backend, so I had to
+            think what was the best way to store the data from the API and where
+            I would create the extra variables that I needed like movie status,
+            selected movie, etc. I chose to create them as new properties of an
+            object instead of variables for organization and simplicity. For
+            example, to change the status of a movie, I could simply change its
+            property instead of managing different arrays.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-responsive-text-section'>
-      <div class='row text-center'>
-        <div class='col-md-8 offset-md-2'>
+    <section class="movies-responsive-text-section">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
           <h2>Responsive Design</h2>
         </div>
       </div>
-      <div class='row text-justify'>
-        <div class='col-md-8 offset-md-2'>
-          <p>I have used Bootstrap to make the application responsive across all devices. Below is the view of the Login, Search and All pages to get an idea of how it would look like in a mobile, tablet and notebook.</p>
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            I have used Bootstrap to make the application responsive across all
+            devices. Below is the view of the Login, Search and All pages to get
+            an idea of how it would look like in a mobile, tablet and notebook.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-responsive-img-section'>
-      <div class='row'>
-        <div class='col-md-4 offset-md-2'>
-          <img src='images/mymovies/mymovies_laptop.png' alt='My Movies Laptop Device' class='d-block mx-auto img-w90' />  
+    <section class="movies-responsive-img-section">
+      <div class="row">
+        <div class="col-md-4 offset-md-2">
+          <img
+            src="images/mymovies/mymovies_laptop.png"
+            alt="My Movies Laptop Device"
+            class="d-block mx-auto img-w90"
+          />
         </div>
-        <div class='col-md-4'>
-          <img src='images/mymovies/mymovies_tablet.png' alt='My Movies Tablet Device' class='d-block mx-auto img-w90' /> 
+        <div class="col-md-4">
+          <img
+            src="images/mymovies/mymovies_tablet.png"
+            alt="My Movies Tablet Device"
+            class="d-block mx-auto img-w90"
+          />
         </div>
       </div>
 
-      <div class='row'>
-        <div class='col-md-4 offset-md-4'>
-          <img src='images/mymovies/mymovies_mobile.png' alt='My Movies Mobile Device' class='d-block mx-auto img-w90' />
+      <div class="row">
+        <div class="col-md-4 offset-md-4">
+          <img
+            src="images/mymovies/mymovies_mobile.png"
+            alt="My Movies Mobile Device"
+            class="d-block mx-auto img-w90"
+          />
         </div>
       </div>
     </section>
 
-
-    <section class='movies-lessons-section'>
-      <div class='row text-center'>
-        <div class='col-md-8 offset-md-2'>
+    <section class="movies-lessons-section">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
           <h2>Lessons Learned</h2>
         </div>
       </div>
-      <div class='row text-justify'>
-        <div class='col-md-8 offset-md-2'>
-          <p>Working on My Movies project gave me the chance to learn, review and practice some Javascript concepts that I was not very confortable with such as promises, ES6 syntax and object manipulation. It also gave me the opportunity to get more familiar with API documentations, using POSTMAN to test and make calls to the API, practicing React's setState callbacks and working with Bootstrap for responsive design.</p>
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            Working on My Movies project gave me the chance to learn, review and
+            practice some Javascript concepts that I was not very confortable
+            with such as promises, ES6 syntax and object manipulation. It also
+            gave me the opportunity to get more familiar with API
+            documentations, using POSTMAN to test and make calls to the API,
+            practicing React's setState callbacks and working with Bootstrap for
+            responsive design.
+          </p>
         </div>
       </div>
     </section>
 
-    <section class='movies-improvements-section'>
-      <div class='row text-center'>
-        <div class='col-md-8 offset-md-2'>
+    <section class="movies-improvements-section">
+      <div class="row text-center">
+        <div class="col-md-8 offset-md-2">
           <h2>Future Improvements</h2>
         </div>
       </div>
-      <div class='row text-justify'>
-        <div class='col-md-8 offset-md-2'>
-          <p>The next steps for this project would be having a backend where I can store all the data, so the user does not lose track of all his activities after the browser refreshes. Also, I would like refactor the code to make the components as reusable as possible and add React Hooks to it.</p>
+      <div class="row text-justify">
+        <div class="col-md-8 offset-md-2">
+          <p>
+            The next steps for this project would be having a backend where I
+            can store all the data, so the user does not lose track of all his
+            activities after the browser refreshes. Also, I would like refactor
+            the code to make the components as reusable as possible and add
+            React Hooks to it.
+          </p>
         </div>
       </div>
     </section>
     <footer>
-			<div class='row'>
-				<div class='col-md-10 offset-md-1'>
-					<ul class='list-inline footer-nav'>
-						<li class='list-inline-item'><a href='#'>Home</a></li>
-						<li class='list-inline-item'><a href='#'>About</a></li>
-						<li class='list-inline-item'><a href='#'>Portfolio</a></li>
-						<li class='list-inline-item'><a href='#'>Contact</a></li>
-					</ul>
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <ul class="list-inline footer-nav">
+            <li class="list-inline-item"><a href="#">Home</a></li>
+            <li class="list-inline-item"><a href="#">About</a></li>
+            <li class="list-inline-item"><a href="#">Portfolio</a></li>
+            <li class="list-inline-item"><a href="#">Contact</a></li>
+          </ul>
 
-					<ul class='list-inline social-icons'>
-						<li class='list-inline-item'>
-							<a href='https://twitter.com/analucia_chin?lang=en' target='_blank' rel='noopener noreferrer'><i class='fab fa-twitter' aria-hidden='true'></i>
-							</a>
-						</li>
-						<li class='list-inline-item'>
-							<a href='https://github.com/analuciachin' target='_blank' rel='noopener noreferrer'><i class='fab fa-github' aria-hidden='true'></i>
-							</a>
-						</li>
-						<li class='list-inline-item'>
-							<a href='https://www.linkedin.com/in/ana-lucia-chin-93762a89/' target='_blank' rel='noopener noreferrer'><i class='fab fa-linkedin' aria-hidden='true'></i>
-							</a>
-						</li>		
-					</ul>
-				</div>
-			</div>
-			<div class='row'>
-				<div class='col-md-10 offset-md-1'>
-					<p>
-						Made with <i class="fas fa-heart"></i> by Ana Lucia &copy; 2020
-					</p>
-					<p><i class="fas fa-envelope"></i> ananime@gmail.com</p>
-				</div>
-			</div>
-		</footer>
-
-
-
-
+          <ul class="list-inline social-icons">
+            <li class="list-inline-item">
+              <a
+                href="https://twitter.com/analucia_chin?lang=en"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://github.com/analuciachin"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a
+                href="https://www.linkedin.com/in/ana-lucia-chin-93762a89/"
+                target="_blank"
+                rel="noopener noreferrer"
+                ><i class="fab fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-10 offset-md-1">
+          <p>Made with <i class="fas fa-heart"></i> by Ana Lucia &copy; 2020</p>
+          <p><i class="fas fa-envelope"></i> ananime@gmail.com</p>
+        </div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
