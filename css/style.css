@@ -5,14 +5,12 @@ lighter shade: #f09188
 darker shade: #c72918
 */
 
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap");
 
 body {
   background-color: #fff;
   color: #555;
-  font-family: 'Open Sans', 'Arial', sans-serif;
+  font-family: "Open Sans", "Arial", sans-serif;
   font-weight: 400;
   font-size: 20px;
   text-rendering: optimizeLegibility;
@@ -22,20 +20,19 @@ body {
 /* NAVIGATION BAR */
 /* ------------------------------------------------------ */
 
-
 .main-navbar {
   background-color: #595959;
 }
 
 .logo {
-	background-color: #fff;
-	border-radius: 50%;
-	width: 50px;
-	height: auto;
-	float: left;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 50px;
+  height: auto;
+  float: left;
 }
 
-.main-nav li{
+.main-nav li {
   margin-left: 40px;
 }
 
@@ -55,16 +52,13 @@ body {
   border-bottom: 2px solid #e74c3c;
 }
 
-
 /* ------------------------------------------------------ */
 /* REUSABLE COMPONENTS */
 /* ------------------------------------------------------ */
 
-
-
-
 /* --------- HEADINGS --------*/
-h1, h2 {
+h1,
+h2 {
   font-weight: 300;
 }
 
@@ -84,7 +78,6 @@ h3 {
   font-size: 100%;
 }
 
-
 /* --------- PARAGRAPH --------*/
 
 p {
@@ -97,7 +90,6 @@ p {
 /* ------------------------------------------------------ */
 /* HOME SECTION */
 /* ------------------------------------------------------ */
-
 
 .home-section h1:first-of-type {
   margin-top: 150px;
@@ -122,13 +114,11 @@ p {
   transition: top ease 0.5s, color 0.5s;
 }
 
-
 .home-section .social-icons a:hover,
 .home-section .social-icons a:active {
   top: -10px;
-	color: #e74c3c;
+  color: #e74c3c;
 }
-
 
 /* ------------------------------------------------------ */
 /* ABOUT SECTION */
@@ -144,7 +134,7 @@ p {
 }
 
 .about-section h2:after {
-  content: ' ';
+  content: " ";
   height: 2px;
   display: block;
   background-color: #e74c3c;
@@ -195,10 +185,9 @@ p {
 /* PROJECT SECTION */
 /* ------------------------------------------------------ */
 
-
 .project-section {
   margin: 50px 0;
-  background-color: #fff;;
+  background-color: #fff;
 }
 
 .project-section h2 {
@@ -206,7 +195,7 @@ p {
 }
 
 .project-section h2:after {
-  content: ' ';
+  content: " ";
   height: 2px;
   display: block;
   background-color: #e74c3c;
@@ -245,8 +234,8 @@ p {
   font-size: 80%;
   text-decoration: none;
   padding: 3px 10px;
-  border-top-right-radius:10px;
-	border-bottom-left-radius:10px; 
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   cursor: pointer;
   margin-right: 10px;
 }
@@ -265,7 +254,6 @@ p {
   color: #fff;
 }
 
-
 .card .btn-ghost:link,
 .card .btn-ghost:visited {
   color: #c72918;
@@ -273,7 +261,6 @@ p {
   border: 1px solid #c72918;
   transition: background-color ease 0.5s, color 0.5s;
 }
-
 
 .card .btn-ghost:hover,
 .card .btn-ghost:active {
@@ -293,11 +280,9 @@ p {
   transform: scale(1.5);
 }
 
-
 /* ------------------------------------------------------ */
 /* CONTACT SECTION */
 /* ------------------------------------------------------ */
-
 
 .contact-section {
   margin-top: 50px;
@@ -309,7 +294,7 @@ p {
 }
 
 .contact-section h2:after {
-  content: ' ';
+  content: " ";
   height: 2px;
   display: block;
   background-color: #e74c3c;
@@ -366,13 +351,11 @@ p {
   transition: top ease 0.5s, color 0.5s;
 }
 
-
 .contact-section .social-icons a:hover,
 .contact-section .social-icons a:active {
   top: -10px;
-	color: #e74c3c;
+  color: #e74c3c;
 }
-
 
 /* ------------------------------------------------------ */
 /* FOOTER */
@@ -395,8 +378,7 @@ footer .social-icons {
   margin-left: 40px;
 }
 
-.footer-nav li
-footer .social-icons li {
+.footer-nav li footer .social-icons li {
   padding: 8px 0;
 }
 
@@ -456,8 +438,6 @@ footer p:last-of-type:hover {
 /*                                                        */
 /* ------------------------------------------------------ */
 
-
-
 /* --------- LINE UNDER HEADER --------*/
 
 .movies-intro-section h1:after,
@@ -466,7 +446,7 @@ footer p:last-of-type:hover {
 .movies-responsive-text-section h2:after,
 .movies-lessons-section h2:after,
 .movies-improvements-section h2:after {
-  content: ' ';
+  content: " ";
   height: 2px;
   display: block;
   background-color: #e74c3c;
@@ -491,8 +471,6 @@ footer p:last-of-type:hover {
 .movies-goal-section h2 {
   margin: 40px 0;
 }
-
-
 
 /* ------------------------------------------------------ */
 /* MY MOVIES - LOGIN PAGE / SEARCH PAGE */
@@ -519,7 +497,9 @@ footer p:last-of-type:hover {
 
 /* --------- PROJECT IMAGES --------*/
 
-.img-w80, .img-w90 {
+.img-w80,
+.img-w90,
+.img-w100 {
   filter: drop-shadow(0 0 3px #666);
   transition: filter 0.4s;
 }
@@ -532,7 +512,12 @@ footer p:last-of-type:hover {
   width: 90%;
 }
 
-.img-w80:hover, .img-w90:hover {
+.img-w100 {
+  width: 100%;
+}
+
+.img-w80:hover,
+.img-w90:hover {
   filter: drop-shadow(0 0 5px #333);
 }
 
@@ -582,11 +567,9 @@ footer p:last-of-type:hover {
   margin-bottom: 50px;
 }
 
-
 /* ------------------------------------------------------ */
 /* MY MOVIES - PROBLEMS AND THOUGHT PROCESS / RESP DESIGN */
 /* ------------------------------------------------------ */
-
 
 .movies-thought-section,
 .movies-responsive-text-section {
@@ -603,12 +586,9 @@ footer p:last-of-type:hover {
   margin: 50px 0;
 }
 
-
-
 /* ------------------------------------------------------ */
 /* MY MOVIES - LESSONS LEARNED / FUTURE IMPROVEMENTS */
 /* ------------------------------------------------------ */
-
 
 .movies-lessons-section,
 .movies-improvements-section {
@@ -630,14 +610,11 @@ footer p:last-of-type:hover {
   padding: 30px 0 60px 0;
 }
 
-
 /* ------------------------------------------------------ */
 /*                                                        */
 /* NEIGHBORHOOD MAP */
 /*                                                        */
 /* ------------------------------------------------------ */
-
-
 
 /* --------- LINE UNDER H2 --------*/
 
@@ -645,7 +622,7 @@ footer p:last-of-type:hover {
 .map-goal-section h2:after,
 .map-thought-section h2:after,
 .map-lessons-section h2:after {
-  content: ' ';
+  content: " ";
   height: 2px;
   display: block;
   background-color: #e74c3c;
@@ -653,8 +630,6 @@ footer p:last-of-type:hover {
   margin: 0 auto;
   margin-top: 30px;
 }
-
-
 
 /* ------------------------------------------------------ */
 /* MAP - INTRO / PROJECT PURPOSE AND GOAL SECTION */
@@ -677,7 +652,6 @@ footer p:last-of-type:hover {
 /* MAP - MAP LOADED / MAP PIN CLICKED SECTION */
 /* ------------------------------------------------------ */
 
-
 .map-loaded-section,
 .map-pinclicked-section {
   background-color: #f7f7f7;
@@ -697,11 +671,9 @@ footer p:last-of-type:hover {
   padding: 50px 0;
 }
 
-
 /* ------------------------------------------------------ */
 /* MAP - SEARCH / LIST CLICK SECTION */
 /* ------------------------------------------------------ */
-
 
 .map-search-section,
 .map-listclick-section {
@@ -721,11 +693,9 @@ footer p:last-of-type:hover {
   padding-bottom: 30px;
 }
 
-
 /* ------------------------------------------------------ */
 /* MAP - PROBLEMS AND THOUGHT PROCESS / LESSONS LEARNED */
 /* ------------------------------------------------------ */
-
 
 .map-thought-section,
 .map-lessons-section {
