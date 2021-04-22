@@ -440,12 +440,12 @@ footer p:last-of-type:hover {
 
 /* --------- LINE UNDER HEADER --------*/
 
-.movies-intro-section h1:after,
-.movies-goal-section h2:after,
-.movies-thought-section h2:after,
-.movies-responsive-text-section h2:after,
-.movies-lessons-section h2:after,
-.movies-improvements-section h2:after {
+.intro-section h1:after,
+.goal-section h2:after,
+.thought-section h2:after,
+.responsive-text-section h2:after,
+.lessons-section h2:after,
+.improvements-section h2:after {
   content: " ";
   height: 2px;
   display: block;
@@ -459,16 +459,16 @@ footer p:last-of-type:hover {
 /* INTRO SECTION / PROJECT PURPOSE AND GOAL */
 /* ------------------------------------------------------ */
 
-.movies-intro-section {
+.intro-section {
   margin: 50px 0;
   /*background-color: #f7f7f7;*/
 }
 
-.movies-intro-section h1 {
+.intro-section h1 {
   margin: 50px 0;
 }
 
-.movies-goal-section h2 {
+.goal-section h2 {
   margin: 40px 0;
 }
 
@@ -476,22 +476,22 @@ footer p:last-of-type:hover {
 /* MY MOVIES - LOGIN PAGE / SEARCH PAGE */
 /* ------------------------------------------------------ */
 
-.movies-login-section,
-.movies-search-section {
+.login-section,
+.search-section {
   background-color: #f7f7f7;
 }
 
-.movies-login-section {
+.login-section {
   margin-top: 50px;
   padding-top: 50px;
 }
 
-.movies-search-section {
+.search-section {
   padding: 30px 0;
 }
 
-.movies-login-section .login,
-.movies-search-section .search {
+.login-section .login,
+.search-section .search {
   padding: 50px 0;
 }
 
@@ -525,15 +525,15 @@ footer p:last-of-type:hover {
 /* MY MOVIES - SEARCH TEXT / ALL PAGE IMAGES */
 /* ------------------------------------------------------ */
 
-.movies-search-text-section {
+.search-text-section {
   margin: 50px 0;
 }
 
-.movies-search-text-section p:first-of-type {
+.search-text-section p:first-of-type {
   margin: 30px 0;
 }
 
-.movies-search-img-section {
+.search-img-section {
   margin: 50px 0;
 }
 
@@ -541,29 +541,29 @@ footer p:last-of-type:hover {
 /* MY MOVIES - STATUS TEXT / STATUS IMAGES */
 /* ------------------------------------------------------ */
 
-.movies-status-section,
-.movies-status-img-section {
+.status-section,
+.status-img-section {
   background-color: #f7f7f7;
 }
 
-.movies-status-section {
+.status-section {
   padding: 80px 0;
 }
 
-.movies-status-img-section {
+.status-img-section {
   padding-bottom: 50px;
 }
 
-.movies-summary-section {
+.summary-section {
   background-color: #f7f7f7;
   padding: 50px 0;
 }
 
-.movies-summary-section p {
+.summary-section p {
   margin: 20px 0 60px 0;
 }
 
-.movies-summary-section img {
+.summary-section img {
   margin-bottom: 50px;
 }
 
@@ -571,18 +571,18 @@ footer p:last-of-type:hover {
 /* MY MOVIES - PROBLEMS AND THOUGHT PROCESS / RESP DESIGN */
 /* ------------------------------------------------------ */
 
-.movies-thought-section,
-.movies-responsive-text-section {
+.thought-section,
+.responsive-text-section {
   background-color: #fff;
   margin: 70px 0;
 }
 
-.movies-thought-section p,
-.movies-responsive-text-section p {
+.thought-section p,
+.responsive-text-section p {
   margin: 40px 0;
 }
 
-.movies-responsive-img-section .row:last-of-type {
+.responsive-img-section .row:last-of-type {
   margin: 50px 0;
 }
 
@@ -590,23 +590,23 @@ footer p:last-of-type:hover {
 /* MY MOVIES - LESSONS LEARNED / FUTURE IMPROVEMENTS */
 /* ------------------------------------------------------ */
 
-.movies-lessons-section,
-.movies-improvements-section {
+.lessons-section,
+.improvements-section {
   background-color: #f7f7f7;
 }
 
-.movies-lessons-section {
+.lessons-section {
   padding: 60px 0;
 }
 
-.movies-improvements-section {
+.improvements-section {
   padding: 10px 0 50px 0;
 }
 
-.movies-lessons-section p {
+.lessons-section p {
   padding: 30px 0;
 }
-.movies-improvements-section p {
+.improvements-section p {
   padding: 30px 0 60px 0;
 }
 
