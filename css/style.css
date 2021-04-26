@@ -619,8 +619,9 @@ footer p:last-of-type:hover {
   /* Index.html */
   /* ------------------------------------------------------ */
 
-  .about-section {
-    padding: 0 20px;
+  .about-section p {
+    margin-left: 15px;
+    margin-right: 15px;
   }
 
   .card {
