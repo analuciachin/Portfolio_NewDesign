@@ -126,7 +126,6 @@ p {
 
 .about-section {
   margin: 50px 0;
-  padding: 0 20px;
   background-color: #f7f7f7;
 }
 
@@ -211,7 +210,7 @@ p {
 
 .card {
   width: 24rem;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 
 .card img {
@@ -474,7 +473,7 @@ footer p:last-of-type:hover {
 }
 
 /* ------------------------------------------------------ */
-/* MY MOVIES - LOGIN PAGE / SEARCH PAGE */
+/* PROJECTS - LOGIN PAGE / SEARCH PAGE */
 /* ------------------------------------------------------ */
 
 .login-section,
@@ -523,7 +522,7 @@ footer p:last-of-type:hover {
 }
 
 /* ------------------------------------------------------ */
-/* MY MOVIES - SEARCH TEXT / ALL PAGE IMAGES */
+/* PROJECTS - SEARCH TEXT / ALL PAGE IMAGES */
 /* ------------------------------------------------------ */
 
 .search-text-section {
@@ -539,7 +538,7 @@ footer p:last-of-type:hover {
 }
 
 /* ------------------------------------------------------ */
-/* MY MOVIES - STATUS TEXT / STATUS IMAGES */
+/* PROJECTS - STATUS TEXT / STATUS IMAGES */
 /* ------------------------------------------------------ */
 
 .status-section,
@@ -569,7 +568,7 @@ footer p:last-of-type:hover {
 }
 
 /* ------------------------------------------------------ */
-/* MY MOVIES - PROBLEMS AND THOUGHT PROCESS / RESP DESIGN */
+/* PROJECTS - PROBLEMS AND THOUGHT PROCESS / RESP DESIGN */
 /* ------------------------------------------------------ */
 
 .thought-section,
@@ -588,7 +587,7 @@ footer p:last-of-type:hover {
 }
 
 /* ------------------------------------------------------ */
-/* MY MOVIES - LESSONS LEARNED / FUTURE IMPROVEMENTS */
+/* PROJECTS - LESSONS LEARNED / FUTURE IMPROVEMENTS */
 /* ------------------------------------------------------ */
 
 .lessons-section,
@@ -616,4 +615,24 @@ footer p:last-of-type:hover {
 /* ------------------------------------------------------ */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .about-section {
+    padding: 0 20px;
+  }
+
+  .card {
+    width: 22rem;
+    margin: 30px auto;
+  }
+
+  .contact-section p:first-of-type {
+    margin: 30px 20px 60px 20px;
+  }
+
+  footer .social-icons {
+    padding-right: 20px;
+  }
+
+  footer p {
+    padding: 20px;
+  }
 }
