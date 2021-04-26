@@ -614,6 +614,70 @@ footer p:last-of-type:hover {
 /* MEDIA QUERIES */
 /* ------------------------------------------------------ */
 
+@media (min-width: 481px) and (max-width: 767px) {
+  /* ------------------------------------------------------ */
+  /* Index.html */
+  /* ------------------------------------------------------ */
+
+  .about-section p {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .card {
+    width: 22rem;
+    margin: 30px auto;
+  }
+
+  .contact-section p:first-of-type {
+    margin: 30px 20px 60px 20px;
+  }
+
+  footer .social-icons {
+    padding-right: 40px;
+  }
+
+  footer p {
+    padding: 20px;
+  }
+
+  /* ------------------------------------------------------ */
+  /* PROJECTS */
+  /* ------------------------------------------------------ */
+
+  .goal-section h2 {
+    margin: 40px 50px;
+  }
+
+  h1,
+  h2 {
+    margin: 30px 40px;
+  }
+
+  p {
+    margin: 30px 50px;
+  }
+
+  .search-text-section p:first-of-type {
+    margin: 30px 50px;
+  }
+
+  .summary-section p {
+    margin: 20px 50px 60px 50px;
+  }
+
+  .thought-section p,
+  .responsive-text-section p {
+    margin: 40px 50px;
+  }
+
+  .img-w80,
+  .img-w90,
+  .img-w100 {
+    margin: 30px auto;
+  }
+}
+
 @media (min-width: 320px) and (max-width: 480px) {
   /* ------------------------------------------------------ */
   /* Index.html */
