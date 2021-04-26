@@ -434,7 +434,7 @@ footer p:last-of-type:hover {
 
 /* ------------------------------------------------------ */
 /*                                                        */
-/* MY MOVIES */
+/* PROJECTS */
 /*                                                        */
 /* ------------------------------------------------------ */
 
@@ -615,6 +615,10 @@ footer p:last-of-type:hover {
 /* ------------------------------------------------------ */
 
 @media (min-width: 320px) and (max-width: 480px) {
+  /* ------------------------------------------------------ */
+  /* Index.html */
+  /* ------------------------------------------------------ */
+
   .about-section {
     padding: 0 20px;
   }
@@ -629,10 +633,46 @@ footer p:last-of-type:hover {
   }
 
   footer .social-icons {
-    padding-right: 20px;
+    padding-right: 40px;
   }
 
   footer p {
     padding: 20px;
+  }
+
+  /* ------------------------------------------------------ */
+  /* PROJECTS */
+  /* ------------------------------------------------------ */
+
+  .goal-section h2 {
+    margin: 40px 50px;
+  }
+
+  h1,
+  h2 {
+    margin: 30px 40px;
+  }
+
+  p {
+    margin: 30px 50px;
+  }
+
+  .search-text-section p:first-of-type {
+    margin: 30px 50px;
+  }
+
+  .summary-section p {
+    margin: 20px 50px 60px 50px;
+  }
+
+  .thought-section p,
+  .responsive-text-section p {
+    margin: 40px 50px;
+  }
+
+  .img-w80,
+  .img-w90,
+  .img-w100 {
+    margin: 30px auto;
   }
 }
