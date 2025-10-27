@@ -476,8 +476,7 @@ footer p:last-of-type:hover {
 /* PROJECTS - LOGIN PAGE / SEARCH PAGE */
 /* ------------------------------------------------------ */
 
-.login-section,
-.search-section {
+.login-section {
   background-color: #f7f7f7;
 }
 
@@ -572,9 +571,12 @@ footer p:last-of-type:hover {
 /* ------------------------------------------------------ */
 
 .thought-section,
+.responsive-text-section,
+.responsive-img-section {
+  background-color: #f7f7f7;
+}
 .responsive-text-section {
-  background-color: #fff;
-  margin: 70px 0;
+  padding: 70px 0;
 }
 
 .thought-section p,
