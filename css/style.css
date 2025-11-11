@@ -63,28 +63,29 @@ h2 {
 }
 
 h1 {
-  font-size: 300%;
+  font-size: 3.5rem;
   word-spacing: 4px;
   letter-spacing: 1px;
 }
 
 h2 {
-  font-size: 200%;
+  font-size: 3rem;
   word-spacing: 2px;
   letter-spacing: 1px;
 }
 
 h3 {
-  font-size: 100%;
+  font-size: 1.8rem;
+  line-height: 2.2rem;
 }
 
 /* --------- PARAGRAPH --------*/
 
 p {
-  font-size: 100%;
+  font-size: 1.4rem;
   word-spacing: 5px;
   letter-spacing: 2px;
-  line-height: 150%;
+  line-height: 2rem;
 }
 
 /* ------------------------------------------------------ */
@@ -503,6 +504,10 @@ footer p:last-of-type:hover {
   transition: filter 0.4s;
 }
 
+.img-w50 {
+  width: 50%;
+}
+
 .img-w80 {
   width: 80%;
 }
@@ -742,4 +747,37 @@ footer p:last-of-type:hover {
   .img-w100 {
     margin: 30px auto;
   }
+}
+
+/* ------------------------------------------------------ */
+/* PROJECTS */
+/* ------------------------------------------------------ */
+
+.homepage-section,
+.recipe-details-section,
+.favourite-section,
+.goal-section,
+.search-img-section,
+.recipes-lessons-section,
+.recipes-improvements-section {
+  padding: 80px 0;
+}
+
+.thought-section {
+  padding-top: 80px;
+}
+
+.responsive-img-section {
+  padding-bottom: 80px;
+}
+
+.homepage-section,
+.favourite-section {
+  background-color: #f7f7f7;
+}
+
+.recipe-details-section,
+.lessons-section,
+.improvements-section {
+  background-color: #fff;
 }
